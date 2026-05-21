@@ -1,0 +1,13 @@
+/* Cascading Style Sheets (CSS) */
+ul{
+    border: 1px solid blue;
+    padding: 15px;
+    color:rgb(90, 30, 5);
+    font-size: 16px;
+    list-style-type: circle;  /* círculo vazio */
+ }
+
+ li{
+    padding-left: 10px;
+    margin-left: 10px;
+ }
