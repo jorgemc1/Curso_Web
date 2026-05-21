@@ -6,3 +6,6 @@ Abra os arquivos _.html_ no seu navegador
 - HTML
 - CSS
 - JAVASCRIPT
+## 📘Divisão do curso
+- Está dividido em pastas.
+- Cada pasta contêm um arquivo _index.html_
