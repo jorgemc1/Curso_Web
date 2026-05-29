@@ -1,0 +1,18 @@
+/* Cascading Style Sheets (CSS) */
+body{
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(14, 14, 54);
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(14, 14, 91);
+    margin-left: 10px;
+}
+/* Classes */
+.paragrafo{
+    background-color: rgb(255, 255, 121);
+}
