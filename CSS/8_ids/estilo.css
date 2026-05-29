@@ -1,0 +1,57 @@
+/* Cascading Style Sheets (CSS) */
+body{
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(14, 14, 54);
+    padding-left: 5px;
+}
+/* Usando IDS */
+#titulo-um{
+    background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:blue;
+    padding: 5px;    
+}
+#titulo-dois{
+    background-color: rgb(3, 51, 109);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color:rgb(230, 230, 249);
+    padding: 5px;    
+}
+#titulo-tres{
+    background-color: rgb(3, 51, 109);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color:rgb(230, 230, 249);
+    padding: 5px;    
+}
+/* Ordem dos seletores */
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font: 500;
+    color: black;
+    background-color: rgb(246, 246, 140);
+    padding: 5px;
+    border-bottom: 1px solid blue;
+}
+/* Class */
+.paragrafo{
+    font-family: 'Courier New', Courier, monospace;
+    font: 500;
+    color: black;
+    background-color: rgb(246, 246, 140);
+    padding: 5px;
+    border-bottom: 2px solid rgb(102, 12, 14);
+}
+/* ID */
+#paragrafo-id{
+    font-family: 'Courier New', Courier, monospace;
+    font: 500;
+    color: black;
+    background-color: rgb(246, 246, 140);
+    padding: 5px;
+    border-bottom: 2px solid green;
+}

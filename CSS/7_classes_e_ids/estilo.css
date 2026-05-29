@@ -15,4 +15,6 @@ p{
 /* Classes */
 .paragrafo{
     background-color: rgb(255, 255, 121);
+    color:blue;
+    padding-left: 5px; /* Espaçamento interno */    
 }
