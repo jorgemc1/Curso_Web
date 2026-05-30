@@ -26,6 +26,11 @@
     color:rgba(0, 0, 255,0.5);
     padding: 5px;
 }
+.p-imagem{
+    background-image: url("img/fundo.JPG");
+    color:white;
+    padding: 5px;
+}
 .hex{
     background-color: beige;
     color: #0d5fe3;
