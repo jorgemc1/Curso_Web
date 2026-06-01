@@ -1,0 +1,20 @@
+/* Cascading Style Sheets (CSS) */
+/* CLASSES */
+.t1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color:rgb(7, 7, 241);
+    padding: 5px;
+}
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:rgb(111, 49, 4);
+    padding: 5px;
+}
+.img-ncenter,
+.img-center{
+ height: 200px;
+ white-space: 200px;
+ background-image: url("img/runas.jpg");
+}
