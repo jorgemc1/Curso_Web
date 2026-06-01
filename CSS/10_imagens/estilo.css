@@ -14,7 +14,11 @@
 }
 .img-ncenter,
 .img-center{
- height: 200px;
- white-space: 200px;
- background-image: url("img/runas.jpg");
+ height: 400px;
+ width: 400px;
+ background-image: url("img/ponte.jpg");
+}
+.img-center{
+    background-position: center;
+    background-size: cover;
 }
