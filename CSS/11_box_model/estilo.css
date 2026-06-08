@@ -49,3 +49,27 @@
     padding: 10px 20px 30px 40px;
     background-color: rgb(241, 225, 203); /* Cor de Fundo */
 }
+.padding-geral3{
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: rgb(165, 184, 236); /* Cor de Fundo */
+    /* Espaçamento entre linhas (uma vez o tamanho da linha line-height: 1.0;)
+       Também podemos especificar valores em unidades (line-height: 12px;)
+       ou percentual (line-height: 150%;) */
+    line-height: 1.0; 
+}
+.whitout-border-box{
+    padding: 50px;
+    width: 400px;
+    background-color:#f1e1cb; /* Cor de Fundo */
+    color: #4949e7;
+}
+.border-box{
+    padding: 50px;
+    width: 400px;
+    background-color:#f1ffcb; /* Cor de Fundo */
+    color: #0707f1;
+    box-sizing: border-box;
+}
