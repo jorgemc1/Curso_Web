@@ -1,0 +1,51 @@
+/* Cascading Style Sheets (CSS) */
+/* CLASSES */
+.t1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color:rgb(7, 7, 241);
+    padding: 5px;
+}
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:rgb(111, 49, 4);
+    padding: 5px;
+}
+.img-ncenter,
+.img-center{
+ height: 400px;
+ width: 400px;
+ background-image: url("img/ponte.jpg");
+}
+.img-center{
+    background-position: center;
+    background-size: cover;
+}
+
+/* Largura e Altura */
+.width-height{
+    width: 100px;  /* Largura */
+    height: 50px; /* Altura */
+    background-color: rgb(165, 184, 236); /* Cor de Fundo */
+}
+.width-height2{
+    width: 200px;  /* Largura */
+    height: 100px; /* Altura */
+    background-color: rgb(241, 225, 203); /* Cor de Fundo */
+}
+.elemento-spadding{ /* Elemento sem padding */
+    background-color: rgb(241, 225, 203); /* Cor de Fundo */
+}
+.elemento-padding{
+    padding-left: 10px;
+    background-color: rgb(165, 184, 236); /* Cor de Fundo */
+}
+.padding-geral{
+    padding: 20px;
+    background-color: rgb(165, 184, 236); /* Cor de Fundo */
+}
+.padding-geral2{
+    padding: 10px 20px 30px 40px;
+    background-color: rgb(241, 225, 203); /* Cor de Fundo */
+}
