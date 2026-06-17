@@ -58,9 +58,9 @@
     /* Espaçamento entre linhas (uma vez o tamanho da linha line-height: 1.0;)
        Também podemos especificar valores em unidades (line-height: 12px;)
        ou percentual (line-height: 150%;) */
-    line-height: 1.0; 
+    line-height: 1.0; /* Espaçamento entre linhas */
 }
-.whitout-border-box{
+.whitout-border-box{ /* whitout -> Sem border box */
     padding: 50px;
     width: 400px;
     background-color:#f1e1cb; /* Cor de Fundo */
@@ -71,5 +71,5 @@
     width: 400px;
     background-color:#f1ffcb; /* Cor de Fundo */
     color: #0707f1;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Corrige espaçamento entre largura e altura com a Borda */
 }

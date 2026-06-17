@@ -18,3 +18,61 @@
     border: 5px solid #f00;
     padding: 1px;
 }
+.border_pontilhado{
+    border: 2px dotted blue;
+    padding: 1px;
+    background-color:#f1e1cb ;
+}
+.border_top_bot{
+    margin-top: 2px;
+    border-top: 2px solid rgb(27, 3, 110);
+    border-bottom: 2px solid rgb(24, 4, 111);
+}
+.border_e_d{
+    margin-top: 2px;
+    border-right: 2px solid rgb(27, 3, 110);
+    border-left: 2px solid rgb(27, 3, 110);
+}
+.border_mista{
+    margin-top: 2px; /* Margem entre os elementos */
+    border-top: 2px dotted blue;
+    border-bottom: 2px dotted blue;
+    border-right: 2px solid #1b036e;
+    border-left: 2px solid #1b036e;
+}
+.border_dupla{
+    margin-top: 2px; /* Margem entre os elementos */
+    border-top: 5px double blue;
+    border-bottom: 5px double blue;
+    border-right: 2px solid #1b036e;
+    border-left: 2px solid #1b036e;
+}
+/* Bordas arredondadas */
+.border_r{
+    margin-top: 2px;
+    border: 2px solid #01051b;
+    background-color: blue;
+    color: white;
+    padding-left: 12px;
+    border-radius: 15px;
+}
+.border_r_2{
+    margin-top: 2px;
+    background-color: blue;
+    color: white;
+    padding-left: 12px;
+    border-radius: 15px;
+}
+/* Box Model */
+.box_model{
+    width: 100px;
+    height: 100px;
+    margin-top: 2px;
+    background-color: #a5b8eb;
+    color: #1b036e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding-left: 12px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
