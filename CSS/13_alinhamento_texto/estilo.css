@@ -1,0 +1,40 @@
+/* Cascading Style Sheets (CSS) */
+/* CLASSES */
+.p_alinhamento_centro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+    margin: 1px;
+    padding: 2px;
+    border-bottom: 2px solid blue;
+    background-color: rgb(250, 250, 238);
+    text-align: center; /* Alinhamento Central */
+}
+.conteinner_centro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #262681;
+    padding: 4px;
+    background-color: #b4b4ac;
+    margin: 1px;
+    text-align: center;
+}
+.conteinner_esquerda{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #262681;
+    padding: 4px 4px 4px 14px;
+    background-color: #b4b4ac;
+    margin: 1px;
+    text-align: left;
+}
+.conteinner_direita{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #262681;
+    padding: 4px 14px 4px 4px;
+    background-color: #b4b4ac;
+    margin: 1px;
+    text-align: right;
+}
