@@ -18,7 +18,7 @@
     padding: 4px;
     background-color: #b4b4ac;
     margin: 1px;
-    text-align: center;
+    text-align: center; /* Alinhamento Central */
 }
 .conteinner_esquerda{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -27,7 +27,7 @@
     padding: 4px 4px 4px 14px;
     background-color: #b4b4ac;
     margin: 1px;
-    text-align: left;
+    text-align: left; /* Alinhamento à Esquerda */
 }
 .conteinner_direita{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -36,5 +36,5 @@
     padding: 4px 14px 4px 4px;
     background-color: #b4b4ac;
     margin: 1px;
-    text-align: right;
+    text-align: right; /* Alinhamento à Direita */
 }
