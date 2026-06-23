@@ -1,0 +1,74 @@
+/* Cascading Style Sheets (CSS) */
+/* CLASSES */
+.paragrafo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #04f;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    padding-left: 15px;
+    background-color: #f5f5dc;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: #00b;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding: 2px;
+    background-color: #f5f5dc;
+}
+.decoration_underline{
+    text-decoration: underline;
+}
+.decoration_trough{
+    text-decoration: line-through;
+}
+.remove_underline{
+    text-decoration: none;
+    color: #ad5820;
+    margin-left: 20px; 
+}
+/* Text Transform */
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+/* letter spacing */
+.letter{
+    letter-spacing: 5px;
+}
+/* Estilos de font */
+.serif{
+    font-family: serif;
+}
+.sans_serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+/* Font weigth */
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}

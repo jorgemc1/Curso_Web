@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posições</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h2>Posições</h2>
+    <div class="paragrafo">A regra position e seus valores são responsáveis
+        por posicionar os elementos na tela.
+    </div>
+    <div class="paragrafo">Temos algumas possibilidades, relative, fixed, 
+        absolute, sticky e etc.
+    </div>
+    <div class="paragrafo">O valor padrão é static, todo elemento começa
+        nesta posição.
+    </div>
+    <!-- Position sticky -->
+     <div class="sticky">
+        <span class="block">Position sticky.</span>
+        <span class="block">Relativo até 20px de "top".</span>
+        <span class="block">Apartir de 20px de "top" se torna sticky.</span>
+    </div>
+    <!-- Position static -->
+     <div class="static">
+        <span>Eu sou estático.</span>
+     </div>
+    <!-- Position relative -->
+     <div class="relative">
+        <span>Eu sou relativo (sigo o fluxo do HTML).</span>
+     </div>
+     <p>Novo parágrafo no fluxo do HTML.</p>
+     <!-- Position absolute -->
+     <div class="absolute">
+        <span>Eu sou absoluto (Não sigo o fluxo do HTML).</span>
+     </div>
+     <!-- Position absolute relative -->
+      <div class="relative_containner">
+        <span class="block">Posição absoluta e relativa.</span>
+        <div class="absolute1"></div>
+        <div class="absolute2"></div>
+      </div>
+     <!-- Position fixed -->
+      <div class="fixed">
+        <span class="block">Estou Fixo.</span>
+      </div> 
+     
+      <!-- Z - Index --> 
+      <div class="relative_containner">
+        <span class="block">Posição Z-Index.</span>
+        <div class="absolute3"></div>
+        <div class="absolute4"></div>
+        <div class="absolute5"></div>
+      </div>
+</body>
+</html>
