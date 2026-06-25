@@ -1,0 +1,39 @@
+/* Cascading Style Sheets (CSS) */
+/* CLASSES */
+.paragrafo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #04f;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    padding-left: 15px;
+    background-color: #f5f5dc;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: #00b;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding: 2px;
+    background-color: #f5f5dc;
+}
+/* Position relative */
+.relative{
+    position: relative;
+    background-color: #964;
+    color: #008;
+    width: 400px;
+    height: 140px;
+    top: 10px;
+    left: 2px;
+    margin-top: 10px;
+}
+.cursive{
+    font-family: cursive;
+    padding: 12px 2px 2px 16px;
+}
+.espaçamentov{
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
