@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário II</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h2>Formuláro II</h2>
+    <div>
+     <form action="#" class="cursive" method="post">
+        <label class= "espaçamentov" for="nome">Nome:</label>
+        <input class= "espaçamentov" type="text" id="nome" name="nome" size="30"><br>
+        <label class= "espaçamentov" for="email">Email:</label>
+        <input class= "espaçamentov" type="text" id="email" name="email" size="30"><br>
+        <label for="disponivel" class="espaçamentov">Cursos disponíveis</label>
+        <select name="disponivel" id="disponivel" multiple size="2"> <!-- Mútiplas escolhas -->
+            <option value="inf_basica">Informática básica</option>
+            <option value="google_planilhas" selected>Google Planilhas</option> <!-- Selecionado --> 
+            <option value="google_docs">Google Docs</option>
+            <option value="google_sites">Google Sites</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+     </form>
+    </div>
+    
+</body>
+</html>
